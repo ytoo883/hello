@@ -1,6 +1,11 @@
-Tesla_model_3 = '200,000 Dollars'
+
+print('''
+
+
+Tesla_model_3   = '200,000 Dollars'
 mercedes = '500,000 Dollars'
 Bmw_m_1450 = '1,000,000,000 Dollars'
+''')
 command = input('>Username: ')
 print ('input car brand youy prefer')
 while :
@@ -25,4 +30,8 @@ while :
         else:
            print('>Continue pls')
           break
+else:
+    ('>No connection')
+break 
+
          
