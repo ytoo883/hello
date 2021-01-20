@@ -6,10 +6,11 @@ while command != "quit":
     elif command == 'stop':
         print('car stopped')  
     elif command == 'help' :
-            print('commands :satart, stop,help ')
+            print('commands :satart, stop,help and quit ;)')
     elif command == 'quit':
+        print('were sorry ;-(')
         break
-print('By trixie core')
+print('goodbye,made By trixie core')
            
 
      
