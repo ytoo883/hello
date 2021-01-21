@@ -1,4 +1,5 @@
-print('cars available')
+message =('Hi welcome to our shop')
+print(message)
 print('tesla,bmw,mercedes ')
 car_choosen = input ('pls type your intreset in options: ')
 while car_choosen.lower != mercedes:
@@ -26,3 +27,5 @@ else:
   print('pls your price range in numbers')
   to_pay = (700000)
   mercedes = int(input())
+  if mercedes > to_pay:
+    print('sorry,we are not intrested')
